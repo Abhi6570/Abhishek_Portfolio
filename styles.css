@@ -1,0 +1,159 @@
+/* Basic CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General styling */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #e3f2fd;
+  padding: 0 20px;
+}
+
+header {
+  background: linear-gradient(90deg, #1e88e5, #42a5f5);
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+}
+
+header h1 {
+  margin-top: 10px;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffca28;
+}
+
+section {
+  padding: 2rem 0;
+  text-align: center;
+  margin: 20px 0;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1e88e5;
+}
+
+#about img {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+#about p {
+  font-size: 1rem;
+  margin-top: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#projects, #skills {
+  text-align: left;
+}
+
+#projects div, #skills div {
+  background: #e1f5fe;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#projects div h3, #skills div h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#projects div p, #skills div p {
+  font-size: 1rem;
+}
+
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#contact form input, #contact form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact form button {
+  padding: 10px 20px;
+  background: #1e88e5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#contact form button:hover {
+  background: #42a5f5;
+}
+
+footer {
+  background: linear-gradient(90deg, #1e88e5, #42a5f5);
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  border-radius: 20px 20px 0 0;
+  margin-top: 20px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+}
+
